@@ -14,6 +14,7 @@ const PicMain = styled.div`
 `;
 const Text = styled.div`
   margin: 100px;
+  color: black;
 `;
 
 export default function AboutMe() {

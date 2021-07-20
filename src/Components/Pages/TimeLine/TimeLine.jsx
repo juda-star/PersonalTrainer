@@ -1,9 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import "./TimeLine.css";
+
+
 export default function TimeLine() {
   return (
+    
     <div>
+      {/* <Darken></Darken> */}
       <div className="container">
         <div className="timeLine">
           <ul>
