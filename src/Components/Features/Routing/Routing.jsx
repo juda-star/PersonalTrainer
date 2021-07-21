@@ -8,7 +8,7 @@ import NavBar from "../NavBar/NavBar";
 
 export default function Routing() {
   return (
-    <div>
+    <div style={{ marginLeft: "-30px" }}>
       <Router>
         <NavBar />
         <Switch>

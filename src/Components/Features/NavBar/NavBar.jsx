@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import {
   IconName,
   FaHome,
-  FaHatWizard,
+  FaLandmark,
   FaEnvelope,
   FaCalendar,
 } from "react-icons/fa";
@@ -25,11 +25,12 @@ const StyledNavBarContainer = styled.div`
   position: absolute;
   z-index: 999;
   top: 100px;
-  left: -13px;
+  left: -40px;
 `;
 export default function NavBar() {
   return (
     <div>
+      <span>
       <StyledNavBarContainer>
         <StyledNavBar>
           <li>
@@ -44,7 +45,7 @@ export default function NavBar() {
           </li>
           <li>
             <Link to="/AboutMe">
-              <FaHatWizard fontSize="x-large" style={{ color: "black" }} />
+              <FaLandmark fontSize="x-large" style={{ color: "black" }} />
             </Link>
           </li>
           <li>
@@ -54,6 +55,9 @@ export default function NavBar() {
           </li>
         </StyledNavBar>
       </StyledNavBarContainer>
+     
+      </span>
     </div>
+    
   );
 }
