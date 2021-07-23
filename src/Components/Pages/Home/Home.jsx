@@ -32,7 +32,6 @@ const Darken = styled.div`
   opacity: 0.7;
   color: white;
 `;
-const style = { color: "white" };
 export default function Home() {
   return (
     <div>
