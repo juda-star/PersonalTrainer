@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import PayPal from "../PayPal/PayPal";
 import styled from "styled-components";
 
-const Button= styled.div`
-background-color: gray;
+const Button = styled.div`
+  background-color: gray;
   border: 2px solid #555555;
   border: none;
   color: white;
@@ -16,10 +16,10 @@ background-color: gray;
   transition-duration: 0.4s;
   cursor: pointer;
   :hover {
-  background-color: #555555;
-  color: white;
-}
-`
+    background-color: #555555;
+    color: white;
+  }
+`;
 export default function ButtonPay() {
   const [checkOut, setCheckOut] = useState(false);
   return (
