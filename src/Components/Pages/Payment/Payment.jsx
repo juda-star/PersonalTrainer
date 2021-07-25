@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-
+import ButtonPay from "../../buttonPay/ButtonPay";
 const MainBody = styled.div`
   display: flex;
   justify-content: center;
   height: 20%;
   width: 35%;
   background-color: black;
-  padding: 46px;
-  margin: 38px;
-  cursor: pointer;
+  padding: 28px;
+  margin: 42px;
   border-radius: 10px 10px;
-  h1 {
+  direction: rtl;
+  h2 {
     color: white;
   }
 `;
@@ -33,13 +33,16 @@ export default function Payment() {
     <MainHtml>
       <MainId>
         <MainBody>
-          <h1>ח3חבילות + תוכנית אימונים</h1>
+          <h2>3 חבילות + תוכנית אימונים  </h2>
+          <ButtonPay/>
         </MainBody>
         <MainBody>
-          <h1>ח5חבילות + תוכנית אימונים</h1>
+          <h2> 5 חבילות + תוכנית אימונים</h2>
+          <ButtonPay/>
         </MainBody>
         <MainBody>
-          <h1>ח10חבילות + תוכנית אימונים</h1>
+          <h2>10 חבילות + תוכנית אימונים</h2>
+          <ButtonPay/>
         </MainBody>
       </MainId>
     </MainHtml>

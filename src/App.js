@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './Components/Features/Footer/Footer';
 // import Routing from './Components/Features/Routing/Routing';
 import Payment from './Components/Pages/Payment/Payment';
+import ButtonPay from './Components/buttonPay/ButtonPay';
 function App() {
   return (
     <div className="App">
