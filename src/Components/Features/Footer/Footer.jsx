@@ -7,13 +7,15 @@ display: flex;
 align-items: center;
 background-color: black;
   height: 10vh;
+  justify-content: center;
 `;
 const StyleIconFacebook = { color: "#1877F2" };
+const StyleIconMail = { color: "#fff" };
 export default function Footer() {
   return (
     <div>
       <MainBody>
-        <p> Email: nati@gmail.com</p>
+        <p style={StyleIconMail}> Email: nati@gmail.com</p>
         <a href="https://www.facebook.com/nati.taka">
           <FaFacebookSquare style={StyleIconFacebook} />
         </a>
