@@ -17,12 +17,12 @@ const MainBody = styled.div`
 `;
 const MainId = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
   flex-direction: column;
+  
 `;
 const MainHtml = styled.div`
-  background-image: url("https://img3.goodfon.com/wallpaper/nbig/2/7f/fitness-tattoo-personal.jpg");
+  background-image: url("https://scontent.fsdv1-2.fna.fbcdn.net/v/t1.6435-9/151567051_10215012356902991_9132554758840294334_n.jpg?_nc_cat=109&_nc_rgb565=1&ccb=1-3&_nc_sid=730e14&_nc_ohc=iyYZahAdWj0AX-AL9Do&_nc_ht=scontent.fsdv1-2.fna&oh=f1cd5f8692145f39d63b3eb25bed93a1&oe=612412F9");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
