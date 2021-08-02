@@ -33,6 +33,7 @@ export default function Form() {
         <label>Message</label>
         <textarea name="message" />
         <input type="submit" value="Send" />
+        <h5>copyright:nati taka</h5>
       </form>
     </div>
   );
